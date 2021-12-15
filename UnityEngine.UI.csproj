@@ -344,6 +344,9 @@
     <Reference Include="UnityEditor.Graphs">
         <HintPath>/home/hos/Programs/Unity/UnityEditor/2020.3.24f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+        <HintPath>/home/hos/Programs/Unity/UnityEditor/2020.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.LinuxStandalone.Extensions">
         <HintPath>/home/hos/Programs/Unity/UnityEditor/2020.3.24f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
     </Reference>

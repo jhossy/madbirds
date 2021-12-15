@@ -37,8 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets/Enemy.cs" />
-     <Compile Include="Assets/Bird/Bird.cs" />
      <Compile Include="Assets/LevelController.cs" />
+     <Compile Include="Assets/Bird/Bird.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/hos/Programs/Unity/UnityEditor/2020.3.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
