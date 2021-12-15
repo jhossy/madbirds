@@ -36,8 +36,9 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/Bird/Bird.cs" />
      <Compile Include="Assets/Enemy.cs" />
+     <Compile Include="Assets/Bird/Bird.cs" />
+     <Compile Include="Assets/LevelController.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/home/hos/Programs/Unity/UnityEditor/2020.3.24f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -656,6 +657,12 @@
     <Reference Include="Unity.2D.IK.Runtime">
         <HintPath>/home/hos/Git/MadBirds/Mad Birds/Library/ScriptAssemblies/Unity.2D.IK.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>/home/hos/Git/MadBirds/Mad Birds/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>/home/hos/Git/MadBirds/Mad Birds/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
         <HintPath>/home/hos/Git/MadBirds/Mad Birds/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
     </Reference>
@@ -682,12 +689,6 @@
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
         <HintPath>/home/hos/Git/MadBirds/Mad Birds/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>/home/hos/Git/MadBirds/Mad Birds/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>/home/hos/Git/MadBirds/Mad Birds/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
